@@ -1,0 +1,17 @@
+
+THE APP:
+Weather API built with Flask that returns weather data for different
+cities through HTTP endpoints.
+
+
+First, import Flask and jsonify.
+Then create sample weather data for cities.
+Next, create routes for home, specific city, and all cities.
+Finally, run the Flask app.
+
+KEY CONCEPTS:
+- Flask: Web framework for building APIs
+- @app.route(): Decorator to create endpoints
+- jsonify(): Converts Python dict to JSON response
+- <variable>: URL parameter (dynamic routes)
+- HTTP status codes: 200 (OK), 404 (Not Found)
